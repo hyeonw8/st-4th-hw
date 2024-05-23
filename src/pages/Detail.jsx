@@ -2,8 +2,7 @@ import { Link, useParams } from 'react-router-dom';
 
 const Detail = () => {
   const params = useParams();
-
-  console.log(params.id);
+  console.log("params>>>>", params);
 
   return (
     <>
